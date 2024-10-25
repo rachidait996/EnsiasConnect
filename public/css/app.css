@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #b71c1c; /* Changed to a deep red */
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #d32f2f; /* Updated to primary red */
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(218, 8, 8, 0.1);
+}
+
+.timetable {
+    display: flex;
+}
+
+.day-column {
+    flex: 1;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(163, 11, 11, 0.1); /* Slight shadow for separation */
+}
+
+.day-header {
+    background-color: #d32f2f; /* Changed to primary red */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold; /* Emphasize the day headers */
+}
+
+.creneau {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffcdd2; /* Light red background */
+    border: 1px solid #d32f2f; /* Primary red border */
+    text-align: center;
+    border-radius: 5px;
+    color: #b71c1c; /* Dark red text */
+}
